@@ -1,0 +1,114 @@
+:root{
+	--color1: #660000;
+	--color2: #FFFEF2;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+	position: relative;
+  	min-height: 100vh;
+  	background-color: var(--color2);
+}
+
+header{
+	color: var(--color2);
+	background-color: var(--color1);
+	padding: 20px
+}
+
+
+main{
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: calc(100vh - 109px - 50px);
+}
+
+
+
+footer{
+	color: var(--color2);
+	background-color: var(--color1);
+	min-height: 50px;
+}
+
+.row-head{
+	padding: 0 100px
+}
+
+.row-content {
+    margin:0px auto;
+    padding: 50px  0px 50px 0px;
+    min-height:400px;
+}
+
+.row-heading {
+    margin:0px auto;
+    padding: 10px  0px 10px 0px;
+    min-height:50px;
+}
+
+.row-foot{
+	min-height: 100px;
+}
+
+
+.modal-header{
+	background-color: var(--color1);
+	color: var(--color2);
+}
+
+.modal-header .close{
+	color: var(--color2);
+}
+
+.modal-body{
+	background-color: var(--color2);
+}
+
+
+
+.table-wrap {
+	margin-top: 12px;
+ 	height: 55vh;	
+ 	width: 100%;
+  	overflow-y: auto;
+  	overflow-x: auto;
+  	border-collapse: collapse;
+  	border-spacing: 0;
+}
+
+.table thead{
+	background-color: var(--color1);
+	color: var(--color2);
+	font-size: 17px;
+	text-align: center;
+	background-color: 
+}
+
+.table thead tr th{
+	
+	text-align: center;
+}
+
+.card{
+	border: 1px solid var(--color1);
+	margin: 26px 0;
+}
+
+.card-header{
+	background-color: var(--color1);
+	color: var(--color2);
+	padding:1px 15px;
+}
+
+.card-body{
+	padding: 20px 15px;
+}
